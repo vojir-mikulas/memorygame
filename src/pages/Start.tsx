@@ -27,7 +27,7 @@ const Start = () => {
         exit={{ opacity: 0 }}
         className='container mx-auto flex flex-col items-center   '>
             <div className='  flex flex-col relative  gap-3  w-[38rem] items-center bg-zinc-800 p-8 my-20 rounded-md shadow-xl'>
-                {!selectingPlayers && <div className='absolute top-5 right-5' onClick={()=>(setSelectingPlayers(true))}>
+                {!selectingPlayers && <div className='absolute top-5 right-5 cursor-pointer' onClick={()=>(setSelectingPlayers(true))}>
                     <FontAwesomeIcon icon={faArrowLeft}/> Add players
                 </div>}
             <h2 className='text-4xl font-medium border-b w-full text-center py-3'>{selectingPlayers ? 'Add players' : 'Select images'}</h2>

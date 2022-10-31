@@ -51,7 +51,13 @@ body{
   box-sizing: border-box;
   }
 
-  
+  .card-back{
+    transform: rotateZ('50');
+ 
+  }
+  .card-front{
+    transform: rotateZ('0');
+  }
  
 
   @media only screen and (max-width: 800px) {
