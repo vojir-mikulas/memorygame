@@ -15,7 +15,7 @@ const SplashScreen = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
          className='h-screen w-screen flex justify-center items-center '>
-            <MagicHeading text={'Epic memory game'}/> 
+            <MagicHeading text={'Pexeso'}/> 
         </motion.div>
     );
 };

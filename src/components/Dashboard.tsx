@@ -16,9 +16,9 @@ const Dashboard: React.FC<props> = ({ winner, handleGameReset, players }) => {
     <>
       {winner && (
         <div className="z-50 absolute w-screen h-screen flex flex-col items-center justify-center backdrop-blur-xl ">
-          <h1 className="drop-shadow-md my-10 text-8xl font-bold ">
+          <h1 className="drop-shadow-md my-10 text-8xl text-center font-bold ">
             {" "}
-            <span className="background-pan text-8xl text-transparent bg-[length:200%] bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 h-40 to-purple-400 ">
+            <span className="background-pan   text-8xl text-transparent bg-[length:200%] bg-clip-text bg-gradient-to-r from-purple-400 via-pink-600 h-40 to-purple-400 ">
               {winner?.name}
             </span>{" "}
             has won!

@@ -151,9 +151,9 @@ const Game: React.FC = () => {
             exit={{ opacity: 0, scale:0  }}
             transition={{ type: "spring", stiffness: 400 }}
             className='font-extrabold text-6xl mt-2 mb-5 text-center'>Its  <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>{currentPlayer.name}'s</span> turn</motion.h1>
-           <div className='flex gap-10   w-full  justify-around flex-wrap'>
+           <div className='flex gap-10   w-full  justify-center  flex-wrap'>
           
-            <div className='grid gap-2 w-2/3   '
+            <div className='grid gap-2 w-2/3  justify-center  items-center'
             style={{gridTemplateColumns: `repeat(${handleGridCalc()}, minmax(2rem, 10rem))`,}}
                 >
                 {

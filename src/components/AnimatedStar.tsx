@@ -14,7 +14,7 @@ const AnimatedStar = () => {
     setTimeout(() => {
         setInterval(() => {
           if (starRef && starRef.current) {
-            starRef.current.style.top = `${rand(-5, 70)}%`;
+            starRef.current.style.top = `${rand(-5, 30)}%`;
             starRef.current.style.left = `${rand(-10, 100)}%`;
     
             starRef.current.style.animation = 'none'
@@ -29,7 +29,7 @@ const AnimatedStar = () => {
   return (
     <div
       ref={starRef}
-      className="block absolute text-2xl opacity-80 text-violet-700 scale-animation"
+      className="block absolute text-xl opacity-80 text-violet-700 scale-animation"
     >
       <div className="rotate-animation origin-center">
         <FontAwesomeIcon icon={faStar} />
